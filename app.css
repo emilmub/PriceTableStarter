@@ -150,8 +150,24 @@ body {
 .panel {
     background-color: white;
     border-radius: 10px;
-    /*display: flex;*/
+    display: flex;
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-plan:last-child {
+    border-bottom: none;
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%
 }
